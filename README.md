@@ -35,13 +35,13 @@ Cette liste a été compilée à partir de 3 grandes décharges de tous les clie
 
 J'ai gratté le top 10 000 Alexa en utilisant une simple boucle sur la liste :
 
-
+```javascript
 for domain in (cat ~/Desktop/alexa_10000.csv)
     if dig $domain NS | grep cloudflare
         echo $domain >> affected.txt
     end
 end
-
+```
 La raclée Alexa et les décharges de Crimeflare ont ensuite été regroupées dans un seul fichier texte, et sont passées par sort | uniq. Depuis, j'ai accepté plusieurs RP et problèmes pour retirer de la liste les sites qui n'ont pas été touchés.
 
 ## Data sources:
@@ -55,7 +55,7 @@ http://www.doesitusecloudflare.com/
 
 
 
-Je préfère être en sécurité plutôt que désolé donc j'ai inclus ici tout domaine qui touche à distance Cloudflare.** ** Ne dirigez pas les utilisateurs finaux vers cette liste s'il vous plaît,** ** elle a trop de faux positifs pour être utile à des fins non-analytiques. Je n'accepte plus les RP pour retirer des sites de la liste, notre processus précédent de retrait de sites était sujet à des erreurs et demandait beaucoup de travail. La liste est maintenant en mode archive, considérez-la défunte. Si vous pensez que pour une raison ou une autre, cela aura un impact important sur vous ou vos utilisateurs, DM me sur Twitter.
+Je préfère être en sécurité plutôt que désolé donc j'ai inclus ici tout domaine qui touche à distance Cloudflare.**** Ne dirigez pas les utilisateurs finaux vers cette liste s'il vous plaît,** elle a trop de faux positifs pour être utile à des fins non-analytiques. Je n'accepte plus les RP pour retirer des sites de la liste, notre processus précédent de retrait de sites était sujet à des erreurs et demandait beaucoup de travail. La liste est maintenant en mode archive, considérez-la défunte. Si vous pensez que pour une raison ou une autre, cela aura un impact important sur vous ou vos utilisateurs, DM me sur Twitter.
 
 
 ## Outils de recherche
