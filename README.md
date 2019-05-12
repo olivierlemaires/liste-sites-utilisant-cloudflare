@@ -19,4 +19,4 @@ Requests to sites with the HTML rewrite features enabled triggered a pointer mat
 
 "The greatest period of impact was from February 13 and February 18 with around 1 in every 3,300,000 HTTP requests through Cloudflare potentially resulting in memory leakage (that’s about 0.00003% of requests), potential of 100k-200k paged with private data leaked every day" -- source
 
-##Que dois-je faire ?
+## Que dois-je faire ?
