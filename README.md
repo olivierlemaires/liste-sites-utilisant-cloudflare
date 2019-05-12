@@ -12,3 +12,11 @@ Cloudflare n'a pas fourni de liste officielle des domaines concernés et ne le f
 Voir les numéros 127 et 87 pour de plus amples renseignements sur les sites susceptibles d'être touchés.
 
 Impact
+
+Between 2016-09-22 - 2017-02-18 session tokens, passwords, private messages, API keys, and other sensitive data were leaked by Cloudflare to random requesters. Data was cached by search engines, and may have been collected by random adversaries over the past few months.
+
+Requests to sites with the HTML rewrite features enabled triggered a pointer math bug. Once the bug was triggered the response would include data from ANY other Cloudflare proxy customer that happened to be in memory at the time. Meaning a request for a page with one of those features could include data from Uber or one of the many other customers that didn't use those features. So the potential impact is every single one of the sites using Cloudflare's proxy services (including HTTP & HTTPS proxy).
+
+"The greatest period of impact was from February 13 and February 18 with around 1 in every 3,300,000 HTTP requests through Cloudflare potentially resulting in memory leakage (that’s about 0.00003% of requests), potential of 100k-200k paged with private data leaked every day" -- source
+
+##Que dois-je faire ?
