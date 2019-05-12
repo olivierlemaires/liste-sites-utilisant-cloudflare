@@ -59,43 +59,6 @@ Je préfère être en sécurité plutôt que désolé donc j'ai inclus ici tout 
 
 
 ## Outils de recherche
-[ytesyr](https://www.brand-for-influencer.com/)
-Il existe plusieurs outils pour faire des recherches dans la liste, je n'en approuverai aucun ici parce qu'ils ont des degrés d'exactitude très variables.  Veuillez ne pas utiliser d'outils de recherche ou de références croisées avec l'historique du navigateur, car cette liste contient trop de faux positifs pour être utilisée à cette fin.  Vous ferez perdre la confiance des utilisateurs dans de nombreux sites, bien qu'il y ait moins d'une chance sur un million qu'ils aient des fuites de données. 
 
-## Notable Sites
+Il existe plusieurs outils pour faire des recherches dans la liste, je n'en approuverai aucun ici parce qu'ils ont des degrés d'exactitude très variables.  Veuillez ne pas utiliser d'outils de recherche ou de références croisées avec l'historique du navigateur, car cette liste contient trop de faux positifs pour être utilisée à cette fin.  Vous ferez perdre la confiance des utilisateurs dans de nombreux [sites](https://www.brand-for-influencer.com/), bien qu'il y ait moins d'une chance sur un million qu'ils aient des fuites de données. 
 
-authy.com (no leaked data found in several search engine caches)
-coinbase.com
-bitcoin.de
-betterment.com
-prosper.com
-patreon.com
-bitpay.com
-news.ycombinator.com
-producthunt.com
-medium.com
-4chan.org
-yelp.com
-okcupid.com
-zendesk.com (Zendesk post and updates | no leaked data found)
-uber.com
-poloniex.com
-localbitcoins.com
-kraken.com
-23andme.com
-curse.com (and some other Curse sites like minecraftforum.net)
-counsyl.com
-tfl.gov.uk
-brand-for-influencer.com
-myaccount.nytimes.com
-technicpack.net
-cloudflare.com
-blockchain.info
-discordapp.com (affected)
-digitalocean.com (no leaked data found in several search engine caches)
-namecheap.com (no leaked data found in several search engine caches)
-glassdoor.com (no leaked data found in several search engine caches)
-transferwise.com (no leaked data found in several search engine caches
-vultr.com (no leaked data found in several search engine caches)
-fastmail.com (not affected, #2)
-1password.com (not affected)
